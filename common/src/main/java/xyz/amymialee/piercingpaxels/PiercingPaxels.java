@@ -1,7 +1,5 @@
 package xyz.amymialee.piercingpaxels;
 
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,5 +12,4 @@ public class PiercingPaxels {
 
     }
 
-    public static void initDatagen(@NotNull FabricDataGenerator generator) {}
 }
