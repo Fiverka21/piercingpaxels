@@ -13,6 +13,7 @@ sourceSets.main.resources.srcDir project(':common').file('src/main/resources')
 dependencies {
     neoForge "net.neoforged:neoforge:${neoforge_version}"
     implementation "dev.architectury:architectury-neoforge:${architectury_api_version}"
+    implementation "io.github.llamalad7:mixinextras-neoforge:0.3.5"
 }
 
 processResources {

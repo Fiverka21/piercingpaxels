@@ -4,8 +4,8 @@
     "package": "xyz.amymialee.piercingpaxels.mixin",
     "refmap": "${mod_id}.refmap.json",
     "compatibilityLevel": "JAVA_21",
-    "mixins": [],
-    "client": [],
+    "mixins": ["BlockMixin"],
+    "client": ["ClientTooltipComponentMixin"],
     "server": [],
     "injectors": {
         "defaultRequire": 1
